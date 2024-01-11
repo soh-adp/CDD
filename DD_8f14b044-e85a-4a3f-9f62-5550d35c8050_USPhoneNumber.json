@@ -1,0 +1,16 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://www.ibm.com/dba/projects/common/DD_8f14b044-e85a-4a3f-9f62-5550d35c8050_USPhoneNumber.json",
+    "description": "Common cross-DBA definition of a US Phone Number",
+    "uuid": "8f14b044-e85a-4a3f-9f62-5550d35c8050",
+    "namespace": "Common",
+    "version": "1",
+    "definitions": {
+        "UnitedStatesPhoneNumber": {
+            "$id": "#UnitedStatesPhoneNumber",
+            "title": "US Phone Number",
+            "type":["string","null"],
+            "maxLength": 14
+        }
+    }
+}

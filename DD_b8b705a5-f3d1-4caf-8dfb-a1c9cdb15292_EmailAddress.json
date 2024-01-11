@@ -1,0 +1,17 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://www.ibm.com/dba/projects/common/DD_b8b705a5-f3d1-4caf-8dfb-a1c9cdb15292_EmailAddress.json",
+    "description": "Common cross-DBA definition of E-mail Address",
+    "uuid": "b8b705a5-f3d1-4caf-8dfb-a1c9cdb15292",
+    "namespace": "Common",
+    "version": "1",
+    "definitions": {
+        "EmailAddress":{
+        	"$id": "#EmailAddress",
+            "title": "Email Address",
+            "type":["string","null"],
+            "format": "email",
+            "maxLength": 254
+        }
+    }
+}
