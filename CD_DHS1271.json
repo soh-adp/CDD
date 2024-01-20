@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "$id": "http://www.ibm.com/dba/projects/CDD/CD_DHS1271.json",
+  "title": "CDD Document Type Definitions",
+  "lastUpdatDate": "",
+  "lastUpdate": "",
+  "comment": "This is a Doc Type Definition showing some different property types",
+  "baForDeployment": false,
+  "definitions": {
+    "DHS1271": {
+      "$id": "#DHS1271",
+      "title": "DHS 1271",
+      "allOf": [
+        {
+          "$ref": "http://www.ibm.com/dba/schemas/#systemDocument"
+        },
+        {
+          "type": "object",
+          "description": "",
+          "baclass": {
+            "caDocTypeId": "747ce9fe-dadd-48a7-9e28-e2ebef20f51b",
+            "defaultRetentionPeriod": "Indefinite",
+            "retentionPeriodUnits": ""
+          },
+          "properties": {
+            "complainttesting": {
+              "allOf": [
+                {
+                  "$ref": "unmapped"
+                },
+                {
+                  "caKeyClassName": "complainttesting",
+                  "caKeyClassId": "6c13ff9f-80a6-4f9b-94d1-9a707c0ffaf0",
+                  "caValueType": "text"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

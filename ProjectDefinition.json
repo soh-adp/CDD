@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "$id": "http://www.ibm.com/dba/solutions/solution1/CDD/ProjectDefinition.json",
+  "title": "Common Data Definitions",
+  "ba_description": "Repository containing common data definitions",
+  "ba_type": "content",
+  "ba_repoPrimaryKey": "CDD",
+  "ba_expectedDocTypes": 0,
+  "ba_id": "4ed1d6f7-d089-4886-bcf7-307ac55e08d1",
+  "ba_dataDefinitions": [],
+  "ba_contentDefinitions": [
+    {
+      "$ref": "CD_DHS1252.json",
+      "title": "DHS 1252",
+      "caDocTypeId": "ec2e2755-a74b-441c-aee9-43cd36ce4e92"
+    },
+    {
+      "$ref": "CD_DHS1271.json",
+      "title": "DHS 1271",
+      "caDocTypeId": "747ce9fe-dadd-48a7-9e28-e2ebef20f51b"
+    }
+  ],
+  "ba_caDefinitions": "",
+  "ba_caProjectDescriptor": "2eb87c2a-876a-405f-90d0-386afd3bf3e6",
+  "ba_snapshotName": "",
+  "ba_versionId": ""
+}
