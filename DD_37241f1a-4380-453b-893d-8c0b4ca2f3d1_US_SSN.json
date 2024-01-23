@@ -1,0 +1,16 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://www.ibm.com/dba/projects/common/DD_37241f1a-4380-453b-893d-8c0b4ca2f3d1_US_SSN.json",
+    "description": "Common cross-DBA definition of a US Social Security Number (SSN)",
+    "uuid": "37241f1a-4380-453b-893d-8c0b4ca2f3d1",
+    "namespace": "Common",
+    "version": "1",
+    "definitions": {
+        "UnitedStates_SSN": {
+            "$id": "#UnitedStates_SSN",
+            "title": "US Social Security",
+            "type":["string","null"],
+            "maxLength": 11
+        }
+    }
+}

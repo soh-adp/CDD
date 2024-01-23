@@ -1,0 +1,29 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://www.ibm.com/dba/projects/common/DD_10f67c92-929d-4074-aa7c-a225cb1c788e_PersonName.json",
+    "description": "Common cross-DBA definition of a name",
+    "uuid": "10f67c92-929d-4074-aa7c-a225cb1c788e",
+    "namespace": "Common",
+    "version": "1",
+    "definitions": {
+        "PersonName": {
+            "$id": "#PersonName",
+            "title": "Personal Name",
+            "type": ["object","null"],
+            "properties": {
+                "firstName": {
+                    "type": "string",
+                    "maxLength": 64
+                },
+                "lastName": {
+                    "type": "string",
+                    "maxLength": 64
+                },
+                "middleInitial": {
+                    "type":["string","null"],
+                    "maxLength": 1
+                }
+            }
+        }
+    }
+}
