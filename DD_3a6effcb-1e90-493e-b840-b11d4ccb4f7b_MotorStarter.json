@@ -1,0 +1,20 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://www.ibm.com/dba/projects/INTEL2/DD_3a6effcb-1e90-493e-b840-b11d4ccb4f7b_MotorStarter.json",
+    "uuid": "3a6effcb-1e90-493e-b840-b11d4ccb4f7b",
+    "namespace": "INTEL2",
+    "version": "1",
+    "description": null,
+    "definitions": {
+        "MotorStarter": {
+            "$id": "#MotorStarter",
+            "title": "Motor Starter",
+            "type": [
+                "string",
+                "null"
+            ],
+            "maxLength": 64,
+            "default": null
+        }
+    }
+}

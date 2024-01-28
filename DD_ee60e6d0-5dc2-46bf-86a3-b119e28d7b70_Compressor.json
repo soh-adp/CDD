@@ -1,0 +1,20 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://www.ibm.com/dba/projects/INTEL2/DD_ee60e6d0-5dc2-46bf-86a3-b119e28d7b70_Compressor.json",
+    "uuid": "ee60e6d0-5dc2-46bf-86a3-b119e28d7b70",
+    "namespace": "INTEL2",
+    "version": "1",
+    "description": null,
+    "definitions": {
+        "Compressor": {
+            "$id": "#Compressor",
+            "title": "Compressor",
+            "type": [
+                "string",
+                "null"
+            ],
+            "maxLength": 64,
+            "default": null
+        }
+    }
+}

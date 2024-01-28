@@ -1,0 +1,20 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://www.ibm.com/dba/projects/INTEL2/DD_603616d9-7301-4a8c-89a4-b99b4b8beed7_LCP.json",
+    "uuid": "603616d9-7301-4a8c-89a4-b99b4b8beed7",
+    "namespace": "INTEL2",
+    "version": "1",
+    "description": null,
+    "definitions": {
+        "LCP": {
+            "$id": "#LCP",
+            "title": "LCP",
+            "type": [
+                "string",
+                "null"
+            ],
+            "maxLength": 64,
+            "default": null
+        }
+    }
+}

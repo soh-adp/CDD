@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://www.ibm.com/dba/projects/INTEL2/DD_c73626f8-72bb-4312-8695-0724b722b927_MotorSizeDuplex.json",
+    "uuid": "c73626f8-72bb-4312-8695-0724b722b927",
+    "namespace": "INTEL2",
+    "version": "1",
+    "description": null,
+    "definitions": {
+        "MotorSizeDuplex": {
+            "$id": "#MotorSizeDuplex",
+            "title": "Motor Size (Duplex)",
+            "type": [
+                "object",
+                "null"
+            ],
+            "properties": {}
+        }
+    }
+}

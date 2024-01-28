@@ -1,0 +1,20 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://www.ibm.com/dba/projects/INTEL2/DD_28829ef3-2747-413d-9da6-53082fe0bb53_EquipmentType.json",
+    "uuid": "28829ef3-2747-413d-9da6-53082fe0bb53",
+    "namespace": "INTEL2",
+    "version": "1",
+    "description": null,
+    "definitions": {
+        "EquipmentType": {
+            "$id": "#EquipmentType",
+            "title": "Equipment Type",
+            "type": [
+                "string",
+                "null"
+            ],
+            "maxLength": 64,
+            "default": null
+        }
+    }
+}

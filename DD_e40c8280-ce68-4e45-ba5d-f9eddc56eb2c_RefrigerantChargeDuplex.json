@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://www.ibm.com/dba/projects/INTEL2/DD_e40c8280-ce68-4e45-ba5d-f9eddc56eb2c_RefrigerantChargeDuplex.json",
+    "uuid": "e40c8280-ce68-4e45-ba5d-f9eddc56eb2c",
+    "namespace": "INTEL2",
+    "version": "1",
+    "description": null,
+    "definitions": {
+        "RefrigerantChargeDuplex": {
+            "$id": "#RefrigerantChargeDuplex",
+            "title": "Refrigerant Charge (Duplex)",
+            "type": [
+                "object",
+                "null"
+            ],
+            "properties": {}
+        }
+    }
+}

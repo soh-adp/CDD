@@ -1,0 +1,20 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://www.ibm.com/dba/projects/INTEL2/DD_3776f22b-1050-4838-89f7-057bf611558d_EfficiencyTargetsFullLoad.json",
+    "uuid": "3776f22b-1050-4838-89f7-057bf611558d",
+    "namespace": "INTEL2",
+    "version": "1",
+    "description": null,
+    "definitions": {
+        "EfficiencyTargetsFullLoad": {
+            "$id": "#EfficiencyTargetsFullLoad",
+            "title": "Efficiency Targets - Full Load",
+            "type": [
+                "string",
+                "null"
+            ],
+            "maxLength": 64,
+            "default": null
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://www.ibm.com/dba/projects/INTEL2/DD_af956525-2d95-4c31-ae6c-0951ff9546f1_PurgeUnits.json",
+    "uuid": "af956525-2d95-4c31-ae6c-0951ff9546f1",
+    "namespace": "INTEL2",
+    "version": "1",
+    "description": null,
+    "definitions": {
+        "PurgeUnits": {
+            "$id": "#PurgeUnits",
+            "title": "Purge Units",
+            "type": [
+                "string",
+                "null"
+            ],
+            "maxLength": 64,
+            "default": null
+        }
+    }
+}

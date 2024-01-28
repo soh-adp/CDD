@@ -1,0 +1,20 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://www.ibm.com/dba/projects/INTEL2/DD_8b084f91-0faa-4e3f-8992-dacb1fe27c7d_CoolingCapacity.json",
+    "uuid": "8b084f91-0faa-4e3f-8992-dacb1fe27c7d",
+    "namespace": "INTEL2",
+    "version": "1",
+    "description": null,
+    "definitions": {
+        "CoolingCapacity": {
+            "$id": "#CoolingCapacity",
+            "title": "Cooling Capacity",
+            "type": [
+                "string",
+                "null"
+            ],
+            "maxLength": 64,
+            "default": null
+        }
+    }
+}

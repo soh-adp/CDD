@@ -1,0 +1,20 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://www.ibm.com/dba/projects/INTEL2/DD_3454ecd7-d619-4b31-84f8-d117ff214129_FrequencyDrive.json",
+    "uuid": "3454ecd7-d619-4b31-84f8-d117ff214129",
+    "namespace": "INTEL2",
+    "version": "1",
+    "description": null,
+    "definitions": {
+        "FrequencyDrive": {
+            "$id": "#FrequencyDrive",
+            "title": "Frequency Drive",
+            "type": [
+                "string",
+                "null"
+            ],
+            "maxLength": 64,
+            "default": null
+        }
+    }
+}

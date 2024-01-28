@@ -1,0 +1,20 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://www.ibm.com/dba/projects/INTEL2/DD_93ebb0de-38f5-4862-87b3-115f365975b4_MotorSizeSingle.json",
+    "uuid": "93ebb0de-38f5-4862-87b3-115f365975b4",
+    "namespace": "INTEL2",
+    "version": "1",
+    "description": null,
+    "definitions": {
+        "MotorSizeSingle": {
+            "$id": "#MotorSizeSingle",
+            "title": "Motor Size (Single)",
+            "type": [
+                "string",
+                "null"
+            ],
+            "maxLength": 64,
+            "default": null
+        }
+    }
+}

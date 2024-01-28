@@ -1,0 +1,20 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://www.ibm.com/dba/projects/INTEL2/DD_9aab7e82-2f67-4dd9-9388-4fae5869322e_Model.json",
+    "uuid": "9aab7e82-2f67-4dd9-9388-4fae5869322e",
+    "namespace": "INTEL2",
+    "version": "1",
+    "description": null,
+    "definitions": {
+        "Model": {
+            "$id": "#Model",
+            "title": "Model",
+            "type": [
+                "string",
+                "null"
+            ],
+            "maxLength": 64,
+            "default": null
+        }
+    }
+}
