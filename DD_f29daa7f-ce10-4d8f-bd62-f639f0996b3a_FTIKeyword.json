@@ -1,0 +1,20 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://www.ibm.com/dba/projects/SP/DD_f29daa7f-ce10-4d8f-bd62-f639f0996b3a_FTIKeyword.json",
+    "uuid": "f29daa7f-ce10-4d8f-bd62-f639f0996b3a",
+    "namespace": "SP",
+    "version": "1",
+    "description": null,
+    "definitions": {
+        "FTIKeyword": {
+            "$id": "#FTIKeyword",
+            "title": "FTI Keyword",
+            "type": [
+                "string",
+                "null"
+            ],
+            "maxLength": 64,
+            "default": null
+        }
+    }
+}
