@@ -1,0 +1,33 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://www.ibm.com/dba/projects/common/DD_14d96da0-62b4-425e-8c86-3d122072d213_USMailAddress.json",
+    "description": "Common cross-DBA definition of a United States mailing address",
+    "uuid": "14d96da0-62b4-425e-8c86-3d122072d213",
+    "namespace": "Common",
+    "version": "1",
+    "definitions": {
+        "USMailAddress": {
+            "$id": "#USMailAddress",
+            "title": "United States Mail Address",
+            "type": ["object","null"],
+            "properties": {
+                "street": {
+                    "type": "string",
+                    "maxLength": 256
+                },
+                "city": {
+                    "type": "string",
+                    "maxLength": 128
+                },
+                "state": {
+                    "type": "string",
+                    "maxLength": 16
+                },
+                "zip": {
+                    "type": "string",
+                    "maxLength": 10
+                }
+            }
+        }
+    }
+}
