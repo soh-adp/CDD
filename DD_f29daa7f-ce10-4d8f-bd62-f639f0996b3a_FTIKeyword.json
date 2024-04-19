@@ -1,9 +1,9 @@
 {
     "$schema": "http://json-schema.org/schema#",
-    "$id": "http://www.ibm.com/dba/projects/SP/DD_f29daa7f-ce10-4d8f-bd62-f639f0996b3a_FTIKeyword.json",
+    "$id": "http://www.ibm.com/dba/projects/project7/DataDefinitions_FTIKeyword.json",
     "uuid": "f29daa7f-ce10-4d8f-bd62-f639f0996b3a",
     "namespace": "SP",
-    "version": "1",
+    "version": "2",
     "description": null,
     "definitions": {
         "FTIKeyword": {

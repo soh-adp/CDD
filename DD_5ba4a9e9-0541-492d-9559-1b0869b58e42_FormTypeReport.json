@@ -1,0 +1,20 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://www.ibm.com/dba/projects/SP/DD_5ba4a9e9-0541-492d-9559-1b0869b58e42_FormTypeReport.json",
+    "uuid": "5ba4a9e9-0541-492d-9559-1b0869b58e42",
+    "namespace": "SP",
+    "version": "1",
+    "description": null,
+    "definitions": {
+        "FormTypeReport": {
+            "$id": "#FormTypeReport",
+            "title": "Form Type - Report",
+            "type": [
+                "string",
+                "null"
+            ],
+            "maxLength": 64,
+            "default": null
+        }
+    }
+}
